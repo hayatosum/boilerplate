@@ -3,7 +3,10 @@ title: Markdown記法のデザイン確認
 date: 2020-07-12
 ---
 
-Markdown記法については [Markdown記法 チートシート](https://qiita.com/Qiita/items/c686397e4a0f4f11683d) を参照。
+Markdown記法については下記リンクを参照。
+- Markdown記法 チートシート: https://qiita.com/Qiita/items/c686397e4a0f4f11683d
+- Qiita マークダウン記法 一覧表・チートシート: https://qiita.com/kamorits/items/6f342da395ad57468ae3
+
 以下はGitPressでのデザイン確認用。
 
 ***
@@ -41,10 +44,6 @@ Markdown記法については [Markdown記法 チートシート](https://qiita.
 1. 番号付きリスト1
 2. 番号付きリスト2
 3. 番号付きリスト3
-
--[ ] タスクリスト1
--[ ] タスクリスト2
--[x] タスクリスト3
 
 |カラム1|カラム2|カラム3|
 |:--|--:|:--:|
