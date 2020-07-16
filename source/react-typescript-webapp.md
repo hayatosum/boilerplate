@@ -49,3 +49,31 @@ $ yarn start
 ## プロジェクトを終了する
 
 `Ctrl + C`で起動しているプロジェクトを終了（停止）できる。
+
+
+# プロジェクトをGitで管理
+
+## リポジトリにプッシュする
+
+`create-react-app`コマンドで作成したプロジェクトには`.git`フォルダも自動で作成されるため、
+ローカルリポジトリをリモートリポジトリにプッシュするという流れになる。
+
+1. GitHub上で新規でリポジトリを作成する（READMEは作成しない）。
+2. ロカールリポジトリを1で作成したリポジトリにプッシュする（下記コマンドを参照）。
+
+```console
+$ git init
+$ git remote add origin git@github.com:YOUR_USER_NAME/YOUR_REPOSITORY_NAME.git
+$ git push -u origin master
+```
+
+## リポジトリからクローンする
+
+下記コマンドでクローンできる。
+
+```console
+$ git clone git@github.com:YOUR_USER_NAME/YOUR_REPOSITORY_NAME.git
+```
+
+gitからクローンしたままの状態のプロジェクトには、nodeのモジュールかインストールが含まれていないため、
+プロジェクトのディレクトリで`npm install`を実行する必要がある。
